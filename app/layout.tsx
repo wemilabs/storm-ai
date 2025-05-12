@@ -12,7 +12,7 @@ const geist = Geist({
 });
 
 export const metadata: Metadata = {
-  title: "Storm AI",
+  title: "Storm",
   description: "Brainstorm. Develop.",
 };
 

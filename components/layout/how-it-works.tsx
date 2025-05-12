@@ -13,32 +13,61 @@ export function HowItWorks() {
             </p>
           </div>
         </div>
-        <div className="mx-auto grid max-w-5xl grid-cols-1 gap-6 py-12 md:grid-cols-3">
+        <div className="mx-auto grid max-w-5xl grid-cols-1 gap-6 py-12 md:grid-cols-2">
           <div className="flex flex-col items-center space-y-2 rounded-lg border p-6 shadow-sm">
             <div className="flex h-12 w-12 items-center justify-center rounded-full border bg-background">
               <span className="text-lg font-bold">1</span>
             </div>
-            <h3 className="text-xl font-bold">Select Area</h3>
+            <h3 className="text-xl font-bold">Select Degree Level</h3>
             <p className="text-center text-muted-foreground">
-              Choose the domain where you need innovative ideas
+              Choose the level of your degree.
             </p>
           </div>
           <div className="flex flex-col items-center space-y-2 rounded-lg border p-6 shadow-sm">
             <div className="flex h-12 w-12 items-center justify-center rounded-full border bg-background">
               <span className="text-lg font-bold">2</span>
             </div>
-            <h3 className="text-xl font-bold">Describe Need</h3>
+            <h3 className="text-xl font-bold">Select Area of Interest</h3>
             <p className="text-center text-muted-foreground">
-              Briefly explain what you're looking for
+              The field of study you are interested in.
             </p>
           </div>
           <div className="flex flex-col items-center space-y-2 rounded-lg border p-6 shadow-sm">
             <div className="flex h-12 w-12 items-center justify-center rounded-full border bg-background">
               <span className="text-lg font-bold">3</span>
             </div>
-            <h3 className="text-xl font-bold">Get Ideas</h3>
+            <h3 className="text-xl font-bold">Select Country Context</h3>
             <p className="text-center text-muted-foreground">
-              Receive AI-generated innovative concepts tailored to your needs
+              The country where you are studying. This provides relevant context
+              to the AI agent.
+            </p>
+          </div>
+          <div className="flex flex-col items-center space-y-2 rounded-lg border p-6 shadow-sm">
+            <div className="flex h-12 w-12 items-center justify-center rounded-full border bg-background">
+              <span className="text-lg font-bold">4</span>
+            </div>
+            <h3 className="text-xl font-bold">Select Complexity Level</h3>
+            <p className="text-center text-muted-foreground">
+              Choose the complexity level of your work.
+            </p>
+          </div>
+          <div className="flex flex-col items-center space-y-2 rounded-lg border p-6 shadow-sm">
+            <div className="flex h-12 w-12 items-center justify-center rounded-full border bg-background">
+              <span className="text-lg font-bold">5</span>
+            </div>
+            <h3 className="text-xl font-bold">Generate Ideas</h3>
+            <p className="text-center text-muted-foreground">
+              Receive AI-generated innovative concepts tailored to your needs.
+            </p>
+          </div>
+          <div className="flex flex-col items-center space-y-2 rounded-lg border p-6 shadow-sm">
+            <div className="flex h-12 w-12 items-center justify-center rounded-full border bg-background">
+              <span className="text-lg font-bold">6</span>
+            </div>
+            <h3 className="text-xl font-bold">Review. Refine. Export.</h3>
+            <p className="text-center text-muted-foreground">
+              Review and refine your ideas to make them even better. Export as
+              PDF.
             </p>
           </div>
         </div>

@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Check } from "lucide-react";
+import { cn } from "@/lib/utils";
 
 import { PRICING_PLANS } from "@/lib/data";
 
@@ -23,12 +24,13 @@ export function Pricing() {
           {PRICING_PLANS.map((plan) => (
             <div
               key={plan.name}
-              className={`flex flex-col rounded-lg border p-6 ${
+              className={cn(
+                "flex flex-col rounded-lg border p-6",
                 plan.popular ? "border-primary shadow-lg" : "border-border"
-              }`}
+              )}
             >
               {plan.popular && (
-                <div className="-mt-6 mb-4 rounded-full bg-primary px-3 py-1 text-xs font-semibold text-primary-foreground w-fit mx-auto">
+                <div className="-mt-2 mb-4 rounded-full bg-primary px-3 py-1 text-xs font-semibold text-primary-foreground w-fit mx-auto">
                   Most Popular
                 </div>
               )}
@@ -48,7 +50,7 @@ export function Pricing() {
               <ul className="mb-6 space-y-2 flex-1">
                 {plan.features.map((feature) => (
                   <li key={feature} className="flex items-center">
-                    <Check className="mr-2 h-4 w-4 text-primary" />
+                    <Check className="mr-2 size-4 text-primary" />
                     <span className="text-sm">{feature}</span>
                   </li>
                 ))}

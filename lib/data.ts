@@ -2,13 +2,55 @@ export const AREAS = [
   { value: "iot", label: "Internet of Things (IoT)" },
   { value: "web", label: "Web Development" },
   { value: "mobile", label: "Mobile Apps" },
-  { value: "ai", label: "Artificial Intelligence" },
+  { value: "ai", label: "Artificial Intelligence (AI)" },
   { value: "law", label: "Legal Tech" },
   { value: "health", label: "Healthcare" },
   { value: "finance", label: "Finance" },
   { value: "education", label: "Education" },
   { value: "gaming", label: "Gaming" },
   { value: "other", label: "Other" },
+];
+
+export const DEGREE_LEVELS = [
+  { value: "bachelor", label: "Bachelor (BSc, BEng, etc.)" },
+  { value: "master", label: "Master (MSc, MEng, etc.)" },
+  { value: "doctorate", label: "Doctorate (PhD, etc.)" },
+];
+
+export const COUNTRY_CONTEXTS = [
+  { value: "rwanda", label: "Rwanda (RW)" },
+  { value: "united-states", label: "United States (US)" },
+  { value: "gabon", label: "Gabon (GA)" },
+  { value: "uganda", label: "Uganda (UG)" },
+  { value: "kenya", label: "Kenya (KE)" },
+  { value: "tanzania", label: "Tanzania (TZ)" },
+  { value: "united-kingdom", label: "United Kingdom (UK)" },
+  { value: "canada", label: "Canada (CA)" },
+  { value: "australia", label: "Australia (AU)" },
+  { value: "germany", label: "Germany (DE)" },
+  { value: "france", label: "France (FR)" },
+  { value: "spain", label: "Spain (ES)" },
+  { value: "italy", label: "Italy (IT)" },
+];
+
+export const COMPLEXITY_LEVELS = [
+  { value: "simple", label: "Simple" },
+  { value: "medium", label: "Medium" },
+  { value: "advanced", label: "Advanced" },
+  { value: "expert", label: "Expert" },
+  { value: "research", label: "Research" },
+];
+
+export const SUBMIT_LABELS = [
+  "Brainstorming...",
+  "Generating...",
+  "Cooking up...",
+  "Kicking off...",
+  "Grokking...",
+  "Thinking...",
+  "Analyzing...",
+  "Cracking...",
+  "Looking for...",
 ];
 
 export const PRICING_PLANS = [
